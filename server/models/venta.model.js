@@ -26,7 +26,7 @@ const ventaSchema = new Schema({
     },
     idProducto: {
         type: mongoose.Types.ObjectId,
-        ref: 'persona',
+        ref: 'producto',
         required: [true, 'Favor de ingresar un identificador unico del producto.']
     },
 
